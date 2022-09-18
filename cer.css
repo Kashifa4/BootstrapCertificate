@@ -1,0 +1,81 @@
+/* body{
+    background-color: black;
+    height: 100%;
+} */
+.parent{
+    /* background-color: #00000000; */
+    margin:auto;
+    height: 800px;
+    width: 700px;
+    display: block;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    border-style: solid;
+    border-width: 30px;
+    border-color: #115c92;
+    
+}
+
+/* .sub-parent{ 
+    background-color: #00000000;
+    margin:auto;
+    height: 800px;
+    width: 700px;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* border-style: solid; */
+    /* border-width: 30px; */
+    /* border-color: #115c92; */
+ /* }   */
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 20px; */
+    width: 15%;
+}
+#text1{
+    text-align: center;
+    color: rgb(14, 85, 38)
+}
+.table td{
+    text-align: center;
+    border: none;
+    box-shadow: none;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 0px;
+    background-color: inset 0 0 0 0px #115c92;
+}
+
+/* .QR-Sign{
+    display: inline;
+}
+
+#QR{
+    margin-left: 10px;
+}
+#sign{
+    margin-right: 10px;
+} */
+
+.images-container{
+    display: flex;
+    justify-content: center;
+}
+
+.images-container img{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#sign{
+    height: 50px;
+    width: 120px;
+}
+.address{
+    text-align: center;
+}
+#icon{
+    margin-right: -38px;
+    margin-top: -15px;
+}
